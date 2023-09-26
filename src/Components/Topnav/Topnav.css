@@ -1,0 +1,44 @@
+#topnav
+{
+    height: 100px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: calc(100% - 70px);
+    box-shadow: 0px 1px 18px 0px #0000001F;
+    z-index: 50;
+}
+.topStick
+{
+    top: 0!important;
+}
+#topnav>ul
+{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+#topnav>ul li
+{
+    height: auto;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #C4C4C4;
+    height: 60%;
+    font-size: 20px;
+}
+.current
+{
+    height: 100%!important;
+    background-color: #00635B;
+    color: #ffffff;
+    border-color:  #00635B!important;
+}
+#topnav>ul li:nth-last-child(1) 
+{
+    border-right: none;
+}

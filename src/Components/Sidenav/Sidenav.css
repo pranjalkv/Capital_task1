@@ -1,0 +1,45 @@
+#sidenav
+{
+    width: 10%;
+    width: 70px;
+    background-color: #ffffff;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    box-shadow: 0px 4px 23px 0px #0000000D;
+    display: flex;
+    justify-content: center;
+}
+nav>ul li
+{
+border: 1px;
+list-style: none;
+}
+.ul-sidenav li:nth-child(1) {
+  margin-top: 50px;
+  margin-left: 4px;
+}
+.ul-sidenav li:nth-child(2) {
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+.ul-sidenav li:nth-last-child(1) 
+{
+    position: absolute;
+    bottom: 10px;
+    left: 14px;
+}
+.user-round
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #1B50E3;
+    color: #ffffff;
+    border-radius: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}

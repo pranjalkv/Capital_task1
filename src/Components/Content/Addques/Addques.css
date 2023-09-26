@@ -1,0 +1,49 @@
+.questionArea
+{
+    margin: 15px auto;
+    padding-bottom: 10px;
+    width: 90%;
+}
+.questionArea p
+{
+    font-weight: 600;
+   margin-bottom: 2px;
+}
+.questionArea input ,.questionArea select, .vidArea
+{
+    width: 100%;
+     margin-bottom: 20px;
+    padding: 2% 1%;
+    border-radius: 6px;
+    border: 2px solid black;
+    resize: none;
+}
+.ques-actions
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ques-del
+{
+    margin-left: 0;
+}
+.save-btn
+{
+    width: 59px;
+height: 35px;
+border-radius: 5px;
+background-color: #087B2F;
+color: #F4FBF7;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+outline: 0 ;
+border: none;
+}
+.save-btn:hover
+{
+background-color: #17ab49;
+}
