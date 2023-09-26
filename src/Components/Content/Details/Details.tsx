@@ -27,7 +27,7 @@ async function getYamlData()
   }
   getYamlData()
   }, []);
-
+console.log(apiData)
     return(
         <section id="details"> 
         <div className="heading-style">
